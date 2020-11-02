@@ -1,0 +1,11 @@
+package kr.or.ksmart;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Javabasic04_input {
+	public static void main(String[] args) {
+		
+		BufferedReader bufferedReader = new BufferedReader(InputStreamReader(System.in));
+	}
+}

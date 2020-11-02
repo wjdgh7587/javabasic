@@ -1,0 +1,30 @@
+package kr.or.ksmart;
+
+class User{
+	public String getMember(Member member) {
+		Member member = new Member();
+		return null;
+	}
+}
+class Member{
+	public void member() {
+		System.out.println("Member class");
+		
+	}
+	
+}
+
+public class JavabasicEx02 {
+
+	public static void main(String[] args) {
+		/*
+		 * 실습2. User라는 클래스에 getMember라는 메소드가 있다.
+		 * 이 메소드는 Member 객체를 리턴을 한다.
+		 * user 클래스를 객체화하여 getMember 호출하고 Member를 받아 그 객체 주소 값을  콘솔에 출력시켜라.
+		 * */
+		User user = new User();
+		user.getMember(Member member);
+
+	}
+
+}
