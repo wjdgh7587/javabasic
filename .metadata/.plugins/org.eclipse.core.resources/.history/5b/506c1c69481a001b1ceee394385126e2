@@ -1,7 +1,0 @@
-package kr.or.ksmart;
-
-public class Javabasic02 {
-	public static void main(String[] test) {
-		//메인 메소드는 자바 프로그램을 시작하는 메소드이다.
-	}
-}

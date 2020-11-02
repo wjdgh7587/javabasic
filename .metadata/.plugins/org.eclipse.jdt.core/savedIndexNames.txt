@@ -1,3 +1,0 @@
-INDEX VERSION 1.130+D:\jeonghoyun\javabasic\.metadata\.plugins\org.eclipse.jdt.core
-3886847897.index
-2782510575.index

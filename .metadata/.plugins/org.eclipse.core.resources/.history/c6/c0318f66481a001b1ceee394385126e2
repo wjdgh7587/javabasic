@@ -1,7 +1,0 @@
-package kr.or.ksmart;
-
-public class Javabasic02 {
-	public static void main(String[] args) {
-		
-	}
-}
