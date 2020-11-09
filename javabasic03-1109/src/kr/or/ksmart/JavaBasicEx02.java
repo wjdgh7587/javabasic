@@ -30,7 +30,7 @@ class Student extends User{
 		System.out.println(getName()+""+getAge()+"살 입니다.");
 	}
 }
-public class JavaBasicEx01 {
+public class JavaBasicEx02 {
 	public static void main(String[] args) {
 		/*************************************
 		 * final 실습
