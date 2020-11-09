@@ -10,7 +10,22 @@ interface School {
 	public int getSchoolClass();
 }
 
-class Student2 implements Person, School {
+interface Print{
+	public void windowPrint();
+	public void layerPrint();
+}
+
+class PrintAction {//확실하게 해야할 경우 추상메소드(abstract) 사용하고 일반적인 경우는 그냥 사용한다.
+	//약간 생성자 메소드와 비슷한듯하다.
+	public final void windowPrint() {
+		System.out.println("윈도우 프린트");
+	}
+	public final void layerPrint() {
+		System.out.println("레이어 프린트");
+	}
+}
+
+class Student2 extends PrintAction implements Person, School, Print {
 
 	@Override
 	public String getSchoolName() {
@@ -32,7 +47,7 @@ class Student2 implements Person, School {
 
 }
 
-class Teacher implements Person, School {
+class Teacher extends PrintAction implements  Person, School, Print {
 
 	@Override
 	public String getSchoolName() {
@@ -72,6 +87,8 @@ public class JavaBasic04 {
 		 * - 서브 클래스에서 implements 키워드로 활용하여 다중 상속이 가능하다.
 		 * 
 		 * - 추상메소드만 선언이 가능하여, 서브클래스에서는 인터페이스에 명시된 메소드는 모두 오버라이딩 해야한다.
+		 * 
+		 * - 인터페이스는 확장을 extends 키워드로 가능하며, 다중 상속이 가능하다.
 		 */
 
 		// 서브클래스를 객체화하여 케스팅 하기
