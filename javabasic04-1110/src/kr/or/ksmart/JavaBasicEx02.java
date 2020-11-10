@@ -18,7 +18,9 @@ public class JavaBasicEx02 {
 
 	public static void main(String[] args) throws Exception  {
 		// TODO Auto-generated method stub
-		
+		/***
+		 * 예외처리 실습1
+		 */
 		/*
 		 * 실습1. ExceptionSample 클래스에 print라는 메소드가 2개가 존재한다.
 		 * 매개변수 1개인 print 메소드 호출시 매개변수값이 null이면
