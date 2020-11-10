@@ -76,7 +76,7 @@ class Character12 extends Something implements Server2, Character2 ,CharactersSl
 	
 }
 
-public class game_practice {
+public class Game2 {
 	public static void main(String[] args) {
 		Character12 c12 = new Character12();
 		Server2 s2= c12;

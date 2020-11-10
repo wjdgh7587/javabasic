@@ -27,6 +27,12 @@ class Member{
 		
 	}
 }
+/****************************************
+ *  예외처리를 만들어서 사용했기 때문에 얼마든지 가공이 가능하다.
+ * 
+ * @author Jeongho
+ *
+ */
 
 public class JavaBasic02 {
 	public static void main(String[] args) {
