@@ -44,9 +44,17 @@ public class JavaBasic01 {
 		 * */
 
 		/*직접 싱글톤 패턴 만들기*/
-		// private STPT(){}; 생성자 메소드의 접근 지정자가 private 임으로 직접 객체화 할 수 가 없다.
+		//1. private STPT(){}; 생성자 메소드의 접근 지정자가 private 임으로 직접 객체화 할 수 가 없다.
 		//STPT st = new STPT();
 		
+		
+		//2. private static STPT instance;
+		//외부에서는 접근을 할 수 없는 필드에 나 자신을 담을 수 있어야 한다.
+		//static 키워드를 활용하여 클래스 변수로 만든다.
+		
+		//3. getInstance 메소드를 생성하고
+		//필드 값이 없을 경우 객체 생성 필드 값이 있을 경우 필드 값 리턴을 하도록 한다.
+		//필드 > 나 자신 객체
 		STPT st = STPT.getInstance();
 	}
 }
